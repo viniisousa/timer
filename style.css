@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    color: white;
+    font-family: 'Silkscreen', cursive;
+}
+
+div{
+    text-align: center;
+}
+
+button{
+    height: 4em;
+    width: 7em;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    height: 4.5em;
+    width: 7.5em;
+}
+
+.start-btn{
+    background-color: rgb(11, 185, 11);
+}
+
+.pause-btn{
+    background-color: rgb(64, 64, 255);
+}
+
+.stop-btn{
+    background-color: red;
+}
